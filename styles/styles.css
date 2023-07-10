@@ -26,6 +26,9 @@ li {
   color: white;
 }
 
+.rounded-btn{
+  border-radius: 20px;
+}
 /* Nav CSS*/
 nav {
   background-color: gray;
@@ -77,9 +80,36 @@ nav {
   font-size: 60px;
   margin-bottom: 10px;
 }
-.banner-description{
+
+.banner-description {
   width: 50%;
   margin: auto;
   margin-bottom: 10px;
 }
+
 /* Banner CSS*/
+
+/* Service Section CSS*/
+.service-section {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../asset/image/footer-bg.png"), 
+  linear-gradient(rgba(0, 0, 0, 1.6), rgba(0, 0, 0, 0.9));
+  background-blend-mode: overlay;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 0px;
+}
+.service-description{
+  width: 50%;
+}
+.icon{
+  height: 80px;
+}
+.service-card{
+  background-color: white;
+  color: black;
+}
+/* Service Section CSS*/
